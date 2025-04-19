@@ -32,23 +32,23 @@ Matplotlib, Seaborn – For data visualization and performance plots.
 ----------------------------
 
 Data Cleaning & Preprocessing
-=============================
+-----------------------------
 Lowercasing, removing HTML tags, punctuation, and stopwords.
 Tokenizing and padding sequences for uniform input length.
 
 Model Building
-==============
+--------------
 LSTM (Long Short-Term Memory) layers for sequence modeling.
 Embedding layer to convert tokens into dense vectors.
 Dropout and Dense layers to prevent overfitting and improve learning.
 
 Model Training & Evaluation
-===========================
+---------------------------
 Trained using binary cross-entropy loss and Adam optimizer.
 Accuracy, loss curves, and confusion matrix used for performance evaluation.
 
 Prediction Interface
-====================
+--------------------
 Gradio web interface has been integrated.
 Accepts user input and predicts sentiment in real-time.
 Useful for deployment or integration into applications.
